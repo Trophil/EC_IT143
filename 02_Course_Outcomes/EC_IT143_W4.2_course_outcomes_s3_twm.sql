@@ -10,7 +10,7 @@ GO
 SELECT
     TRY_CONVERT(INT, year) AS year,
     SUM(TRY_CONVERT(INT, graduates)) AS total_graduates
-FROM dbo.t_community1
+FROM dbo.t_w4_community1
 WHERE TRY_CONVERT(INT, year) IS NOT NULL
   AND TRY_CONVERT(INT, graduates) IS NOT NULL
 GROUP BY
