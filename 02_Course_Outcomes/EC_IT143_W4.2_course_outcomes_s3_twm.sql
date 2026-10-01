@@ -2,7 +2,7 @@
 EC_IT143_W4.2_course_outcomes_s3_twm.sql
 Step 3: Create an ad hoc SQL query.
 
-Source table assumed: dbo.t_community1
+Source table: dbo.t_w4_community1
 */
 USE EC_IT143_DA;
 GO
