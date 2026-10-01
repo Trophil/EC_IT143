@@ -13,7 +13,7 @@ AS
     SELECT
         institution_state,
         COUNT(*) AS institution_count
-    FROM dbo.t_community2
+    FROM dbo.t_w4_community2
     WHERE institution_state IS NOT NULL
     GROUP BY
         institution_state;
